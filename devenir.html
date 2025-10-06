@@ -189,21 +189,145 @@ html {
 </body>
 </html>
 
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <style>
+html {
+  font-family: Open Sans,sans-serif;
+}
 
-<!-- PLUGIN TEXT_IMAGE
-	Devenir ingénieur
+.site-footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
 
-	Parce que les technologies et l’IA sont partout, l’ISEN Ouest forme des ingénieurs aptes à répondre aux besoins des entreprises dans tous les secteurs d’activités.
+/* Conteneur principal */
+.footer-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 
-	Après le baccalauréat, vous optez pour un cycle de formation en 3 ans centré sur les sciences appliquées, le numérique et l’IA. En fonction de votre profil, sept cursus différents sont proposés. Pendant ces trois premières années, vous réfléchissez à votre projet professionnel et vous pouvez changer de cursus.
+/* Colonne 1 : logo + bouton */
+.footer-col-logo {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+}
 
-	Ensuite, vous accédez sans critère de classement aux domaines professionnels proposés par l’ISEN Ouest. C’est le temps de la spécialisation.
+.footer-logo {
+  height: 100px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
 
-	La formation d’ingénieur généraliste ne se limite pas aux matières techniques ou scientifiques. Les élèves-ingénieurs apprennent à communiquer, à manager, à prendre de la hauteur sur leurs activités et surtout, comme personne ne connait les technologies de demain, ils apprennent à apprendre.
+.btn-contact {
+  display: block;
+  padding: 10px 20px;
+  background: #c8102e;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: auto;
+}
 
-	https://isen-ouest.fr/wp-content/uploads/2024/08/21/science-et-numerique.jpg
--->
+.btn-contact:hover {
+  background: #a00b23;
+}
+
+/* Zone liens (colonnes 2-4) */
+.footer-links-section {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Titre général */
+.footer-cities {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Colonnes de liens */
+.footer-links-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+	width: 25%
+}
+.footer-col h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 8px;
+}
+
+.footer-col a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+/* Bas de page */
+.footer-bottom {
+  text-align: center;
+  padding-top: 15px;
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+    </style>
+</head>
+<body>
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Colonne 1 : Logo + bouton -->
+    <div class="footer-col footer-col-logo">
+      <img src="https://isen-ouest.fr/wp-content/uploads/2024/08/21/science-et-numerique.jpg" 
+           alt="ISEN Ouest" class="footer-logo">
+    </div>
+
+    <!-- Zone titres + colonnes 2-4 -->
+    <div class="footer-links-section">
+      <!-- Titre général -->
+      <p class="footer-cities">Texte à venir</p>
 
 
+  </div>
 
-<!-- FOOTER_SIMPLE -->
+  <!-- Bas de page -->
+</footer>
+<div class="footer-bottom">
+  &copy;
+</div>
+</body>
+</html>
